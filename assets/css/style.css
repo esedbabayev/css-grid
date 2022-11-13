@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container div{
+    border: 1px solid #e0e4e7;
+}
+.grid-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 21%  79%;
+    grid-template-rows: 7% 93%;
+}
+.grid-item-1{
+    border: 1px black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 6%;
+}
+.grid-item-2{
+    padding: 0.4% 0 0 3%;
+    
+}
+.btn{
+    width: 10%;
+    height: 5vh;
+    background-color: #0d6efd;
+    color: azure;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background-color: #125ccb;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.ul-1{
+    float: right;
+    margin-top: 1%;
+}
+.ul-1 li{
+    display: inline;
+    list-style: none;
+
+}
+.btn-2{
+    border: none;
+    background-color: white;
+
+}
+.btn-2:hover{
+    transition: 0.1s;
+    color: #888889;
+    cursor: pointer;
+}
+
+/* item-3 start */
+
+.grid-item-3{
+    width: 100%;
+    font-size: 60px;
+}
+.ul-2{
+    text-align: center;
+    font-size: 25px;
+    float: left; 
+}
+.ul-2 li{
+    list-style-type: none;
+    width: 100%;
+}
+.hrr{
+    margin-top: 30%;
+}
+.ul-2 li:hover{
+    height: 10vh;
+    width: 100%;
+    background-color: #888889;
+    cursor: pointer;
+}
+
+/* item-4 start */
+
+.grid-item-4{
+    width: 100%;
+}
+.div4{
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-bottom: 34%;
+    font-size: 24px;
+}
+.color{
+    color: rgb(214,55,133);
+}
